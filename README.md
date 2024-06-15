@@ -31,6 +31,29 @@ To run the application, follow these steps:
 ````
 Endpoint: POST /tci/employee-bonus
 Description: Saves employee data to the database from a JSON payload
+
+Request Payload sample:
+{
+	"employees": [
+		{
+			"empName": "raj singh",
+			"department": "accounts",
+			"amount": 5000,
+			"currency": "INR",
+			"joiningDate": "may-20-2022",
+			"exitDate": "may-20-2023"
+		},
+		{
+			"empName": "pratap m",
+			"department": "accounts",
+			"amount": 3000,
+			"currency": "INR",
+			"joiningDate": "jan-01-2021",
+			"exitDate": "may-20-2023"
+		},
+		
+	]
+}
 ````
 
 * Retrieve Eligible Employees for Bonuses
